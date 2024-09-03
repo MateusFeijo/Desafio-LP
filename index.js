@@ -39,6 +39,6 @@ if (xp < 1000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível ascendente.")
 } else if (xp >= 8001 && xp <= 10000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível radiante.")
-} else if (xp >= 10000) {
+} else {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível imortal.")
 }
